@@ -88,11 +88,11 @@ console.log(response); // The response from the AI
 
 #### Example Response
 
-`
+```
 The weather in San Jose is expected to be mild over the next few days, with temperatures ranging from 7.6°C to 27.1°C.
 
 Here are a few activity recommendations:
 
 - **Outdoor activities:** With the weather being mild, you could go for a walk or hike in one of the many parks in San Jose, such as Alum Rock Park or the Guadalupe River Park & Gardens. You could also visit the Japanese Friendship Garden.
 - **Indoor activities:** If you prefer to stay indoors, you could visit one of the many museums in San Jose, such as the Tech Interactive or the San Jose Museum of Art. You could also check out a show at the San Jose Center for the Performing Arts.
-  `
+```
