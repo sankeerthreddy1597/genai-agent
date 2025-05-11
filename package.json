@@ -1,0 +1,50 @@
+{
+  "name": "genai-agent",
+  "version": "1.0.0",
+  "description": "Multi-provider GenAI wrapper (Google, OpenAI, Anthropic) with builtin function-calling support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    "./google": {
+      "import": "./dist/google/agent.js",
+      "require": "./dist/google/agent.js"
+    },
+    "./openai": {
+      "import": "./dist/openai/agent.js",
+      "require": "./dist/openai/agent.js"
+    },
+    "./anthropic": {
+      "import": "./dist/anthropic/agent.js",
+      "require": "./dist/anthropic/agent.js"
+    },
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "genai",
+    "google",
+    "openai",
+    "anthropic",
+    "agent",
+    "function-calling",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
+}

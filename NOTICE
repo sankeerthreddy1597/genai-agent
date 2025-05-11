@@ -1,0 +1,18 @@
+NOTICE
+
+This product includes software developed by Sankeerth Reddy © 2025 under the MIT License.
+
+---
+
+Third-party dependencies and attributions:
+
+This product includes portions of software developed by Google LLC and licensed under the Apache License, Version 2.0:
+
+- @google/genai © 2025 Google LLC  
+  https://www.npmjs.com/package/@google/genai  
+  Licensed under the Apache License, Version 2.0  
+  https://www.apache.org/licenses/LICENSE-2.0
+
+---
+
+You must retain this NOTICE file if you distribute this software, in whole or in part.
