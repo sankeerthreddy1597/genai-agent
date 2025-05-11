@@ -106,6 +106,10 @@ This project includes third-party software components:
 
 See the [`NOTICE`](./NOTICE) file for additional details.
 
+## Examples
+
+Checkout some examples with function calls and response [here](./examples/basic/)
+
 ## Notes
 
 1. OpenAI and Anthropic: These are placeholders right now. You’ll be able to add their logic in the future, and users will be able to interact with them in the same way as GoogleAgent.
