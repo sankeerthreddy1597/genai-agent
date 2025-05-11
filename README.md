@@ -30,7 +30,7 @@ const agent = new GoogleAgent({ apiKey: "YOUR_GOOGLE_API_KEY" });
 
 // Call the chat method to interact with the AI
 const response = await agent.chat({
-  model: "your-model-id",
+  model: "gemini-1.5-flash",
   text: "Hello, AI!",
   functionDeclarations: [],
   functions: {},

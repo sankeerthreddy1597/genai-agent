@@ -25,7 +25,7 @@ class GoogleAgent {
   }
 
   async chat({
-    model = "gemini-pro",
+    model = "gemini-2.0-flash",
     text,
     functionDeclarations = [],
     functions = {},
@@ -48,7 +48,7 @@ class GoogleAgent {
         model,
         contents,
         config: {
-          tools: [{ functionDeclarations }],
+          ...(functionDeclarations.length && {tools: [{ functionDeclarations }]} ),
           systemInstruction,
         },
       });
