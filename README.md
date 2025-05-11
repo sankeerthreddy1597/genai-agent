@@ -86,12 +86,6 @@ npm install
 npm run build
 ```
 
-4. Run tests (Add tests once you have them setup)
-
-```bash
-npm test
-```
-
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
